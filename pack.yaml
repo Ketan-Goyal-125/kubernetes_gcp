@@ -1,0 +1,24 @@
+ref: kubernetes_gcp
+
+name: Kubernetes GCP
+description: My Custom Kubernetes pack for GKE
+
+keywords:
+  - GCP
+  - GKE
+  - Kubernetes
+
+version: 0.0.1
+
+python_versions:
+  - "3"
+
+dependencies:
+  - core
+
+author: Ketan(Media.net)
+email: ketan.g@media.net
+
+contributors:
+  - "ketan <ketangoyal125@gmail.com>"
+

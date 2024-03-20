@@ -1,0 +1,23 @@
+name: patchHPA
+pack: kubernetes_gcp
+runner_type: python-script
+description: "patches a Horizonal Pod Autoscaler"
+enabled: true
+entry_point: "patchHPA.py"
+parameters:
+    name:
+      type: string
+      required: true
+      description: "Name of HPA to be Patched"
+    namespace:
+      type: string
+      description: "Namespace of the HPA. Default if not mentioned"
+    body: 
+      type: object
+      description: "write the changes you want here"
+      required: true
+    config_override:
+        type: object
+        description: "override stackstorm config"
+        secret: true
+        

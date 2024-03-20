@@ -1,0 +1,5 @@
+---
+  encode:
+    description: "encoded config file"
+    type: "string"
+    required: true

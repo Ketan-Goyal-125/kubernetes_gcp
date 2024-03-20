@@ -1,0 +1,8 @@
+name: greet.concurrency
+pack: kubernetes_gcp
+description: Limits the concurrent executions of the greet action.
+enabled: true
+resource_ref: kubernetes_gcp.createNamespace
+policy_type: action.concurrency
+parameters:
+    threshold: 1
