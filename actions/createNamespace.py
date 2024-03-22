@@ -1,4 +1,4 @@
-import os
+
 from lib.k8s import K8sClient
 from kubernetes import client, config
 

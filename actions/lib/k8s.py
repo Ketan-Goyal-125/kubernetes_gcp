@@ -1,4 +1,4 @@
-import os,base64
+import base64
 from st2common.runners.base_action import Action
 from kubernetes import client, config as conf
 
