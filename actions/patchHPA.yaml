@@ -16,8 +16,5 @@ parameters:
       type: object
       description: "write the changes you want here"
       required: true
-    config_override:
-        type: object
-        description: "override stackstorm config"
-        secret: true
+
         

@@ -3,7 +3,7 @@ from lib.k8s import K8sClient
 from kubernetes import client, config
 
 class CreateNamespace(K8sClient):
-    def run(self,config_override=None):
+    def run(self):
         try:
             # Create Kubernetes client
             k8s_client = client.CoreV1Api()
