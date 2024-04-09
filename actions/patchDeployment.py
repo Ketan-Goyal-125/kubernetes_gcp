@@ -3,12 +3,12 @@ from lib.k8s import K8sClient
 
 
 class PatchDeploymentAction(K8sClient):
-    def run(self, deployment_name, namespace, patch):
+    def run(self, deployment_name,patch,namespace="default"):
         # Load Kubernetes configuration from default location
         api_instance = client.AppsV1Api()
 
         # Construct the patch request body
-        patch_body = {"spec": patch}
+        patch_body = patch
 
         try:
             # Patch the Deployment

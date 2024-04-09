@@ -1,4 +1,4 @@
-name: patchDeplpoyment
+name: patchDeployment
 pack: kubernetes_gcp
 runner_type: python-script
 description: "patches a Deployement"
