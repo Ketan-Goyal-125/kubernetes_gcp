@@ -12,6 +12,7 @@ parameters:
     namespace:
       type: string
       description: "Namespace of the HPA. Default if not mentioned"
+      required: false
     body: 
       type: object
       description: "write the changes you want here"

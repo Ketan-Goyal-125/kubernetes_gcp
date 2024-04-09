@@ -12,6 +12,7 @@ parameters:
     namespace:
       type: string
       description: "Namespace of the Deployment. Default if not mentioned"
+      required: false
     patch: 
       type: object
       description: "write the changes you want here"
